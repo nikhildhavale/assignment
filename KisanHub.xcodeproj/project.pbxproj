@@ -47,27 +47,6 @@
 			remoteGlobalIDString = 4BF3201E1D62C67F00F459C6;
 			remoteInfo = KisanHub;
 		};
-		4BF95598215E1D9400A4B4C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4BF95592215E1D9400A4B4C7 /* KisanHubJson.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4BF95561215E1D3700A4B4C7;
-			remoteInfo = KisanHubJson;
-		};
-		4BF9559A215E1D9400A4B4C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4BF95592215E1D9400A4B4C7 /* KisanHubJson.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4BF95575215E1D3900A4B4C7;
-			remoteInfo = KisanHubJsonTests;
-		};
-		4BF9559C215E1D9400A4B4C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4BF95592215E1D9400A4B4C7 /* KisanHubJson.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4BF95580215E1D3900A4B4C7;
-			remoteInfo = KisanHubJsonUITests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -100,7 +79,6 @@
 		4BF95552215E03F600A4B4C7 /* RegionWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionWeatherViewController.swift; sourceTree = "<group>"; };
 		4BF95554215E041200A4B4C7 /* RegionWeatherTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionWeatherTableViewController.swift; sourceTree = "<group>"; };
 		4BF95556215E132800A4B4C7 /* FilterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewController.swift; sourceTree = "<group>"; };
-		4BF95592215E1D9400A4B4C7 /* KisanHubJson.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KisanHubJson.xcodeproj; path = KisanHubJson/KisanHubJson.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +109,6 @@
 		4BF320161D62C67F00F459C6 = {
 			isa = PBXGroup;
 			children = (
-				4BF95592215E1D9400A4B4C7 /* KisanHubJson.xcodeproj */,
 				4BF320211D62C67F00F459C6 /* KisanHub */,
 				4BF320361D62C68000F459C6 /* KisanHubTests */,
 				4BF320411D62C68000F459C6 /* KisanHubUITests */,
@@ -194,16 +171,6 @@
 				4BF320441D62C68000F459C6 /* Info.plist */,
 			);
 			path = KisanHubUITests;
-			sourceTree = "<group>";
-		};
-		4BF95593215E1D9400A4B4C7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4BF95599215E1D9400A4B4C7 /* KisanHubJson.app */,
-				4BF9559B215E1D9400A4B4C7 /* KisanHubJsonTests.xctest */,
-				4BF9559D215E1D9400A4B4C7 /* KisanHubJsonUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,12 +267,6 @@
 			mainGroup = 4BF320161D62C67F00F459C6;
 			productRefGroup = 4BF320201D62C67F00F459C6 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 4BF95593215E1D9400A4B4C7 /* Products */;
-					ProjectRef = 4BF95592215E1D9400A4B4C7 /* KisanHubJson.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				4BF3201E1D62C67F00F459C6 /* KisanHub */,
@@ -314,30 +275,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		4BF95599215E1D9400A4B4C7 /* KisanHubJson.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = KisanHubJson.app;
-			remoteRef = 4BF95598215E1D9400A4B4C7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4BF9559B215E1D9400A4B4C7 /* KisanHubJsonTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = KisanHubJsonTests.xctest;
-			remoteRef = 4BF9559A215E1D9400A4B4C7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4BF9559D215E1D9400A4B4C7 /* KisanHubJsonUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = KisanHubJsonUITests.xctest;
-			remoteRef = 4BF9559C215E1D9400A4B4C7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4BF3201D1D62C67F00F459C6 /* Resources */ = {
