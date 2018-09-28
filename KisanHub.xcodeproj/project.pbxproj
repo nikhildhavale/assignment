@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BA02550215B5BCC00AEE479 /* RegionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA0254F215B5BCC00AEE479 /* RegionTableViewController.swift */; };
+		4BA02554215B64E400AEE479 /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA02553215B64E400AEE479 /* NetworkSession.swift */; };
+		4BAD72CD215DE1E8001CC39A /* Weather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD72CB215DE1E8001CC39A /* Weather.xcdatamodeld */; };
+		4BAD72D0215DE444001CC39A /* WeatherItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD72CE215DE444001CC39A /* WeatherItem+CoreDataClass.swift */; };
+		4BAD72D1215DE444001CC39A /* WeatherItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD72CF215DE444001CC39A /* WeatherItem+CoreDataProperties.swift */; };
+		4BAD72D3215DE4E1001CC39A /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD72D2215DE4E1001CC39A /* CoreDataModel.swift */; };
+		4BC0F973215B73A200EB5712 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0F972215B73A200EB5712 /* Constants.swift */; };
+		4BC0F976215B747000EB5712 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0F974215B747000EB5712 /* TitleTableViewCell.swift */; };
+		4BC0F977215B747000EB5712 /* TitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BC0F975215B747000EB5712 /* TitleTableViewCell.xib */; };
+		4BC0F97B215B792000EB5712 /* ActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0F97A215B792000EB5712 /* ActivityIndicatorViewController.swift */; };
+		4BC0F97D215B7FE200EB5712 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0F97C215B7FE200EB5712 /* Enum.swift */; };
+		4BF320231D62C67F00F459C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF320221D62C67F00F459C6 /* AppDelegate.swift */; };
+		4BF320251D62C67F00F459C6 /* RegionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF320241D62C67F00F459C6 /* RegionViewController.swift */; };
+		4BF320281D62C68000F459C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF320261D62C68000F459C6 /* Main.storyboard */; };
+		4BF3202A1D62C68000F459C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF320291D62C68000F459C6 /* Assets.xcassets */; };
+		4BF3202D1D62C68000F459C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF3202B1D62C68000F459C6 /* LaunchScreen.storyboard */; };
+		4BF320381D62C68000F459C6 /* KisanHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF320371D62C68000F459C6 /* KisanHubTests.swift */; };
+		4BF320431D62C68000F459C6 /* KisanHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF320421D62C68000F459C6 /* KisanHubUITests.swift */; };
+		4BF320511D62E19D00F459C6 /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4BF320501D62E19D00F459C6 /* File.txt */; };
+		4BF320531D62EDB500F459C6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF320521D62EDB500F459C6 /* Extension.swift */; };
+		4BF95553215E03F600A4B4C7 /* RegionWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF95552215E03F600A4B4C7 /* RegionWeatherViewController.swift */; };
+		4BF95555215E041200A4B4C7 /* RegionWeatherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF95554215E041200A4B4C7 /* RegionWeatherTableViewController.swift */; };
+		4BF95557215E132800A4B4C7 /* FilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF95556215E132800A4B4C7 /* FilterTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BF320341D62C68000F459C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BF320171D62C67F00F459C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BF3201E1D62C67F00F459C6;
+			remoteInfo = KisanHub;
+		};
+		4BF3203F1D62C68000F459C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BF320171D62C67F00F459C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BF3201E1D62C67F00F459C6;
+			remoteInfo = KisanHub;
+		};
+		4BF95598215E1D9400A4B4C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BF95592215E1D9400A4B4C7 /* KisanHubJson.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4BF95561215E1D3700A4B4C7;
+			remoteInfo = KisanHubJson;
+		};
+		4BF9559A215E1D9400A4B4C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BF95592215E1D9400A4B4C7 /* KisanHubJson.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4BF95575215E1D3900A4B4C7;
+			remoteInfo = KisanHubJsonTests;
+		};
+		4BF9559C215E1D9400A4B4C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BF95592215E1D9400A4B4C7 /* KisanHubJson.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4BF95580215E1D3900A4B4C7;
+			remoteInfo = KisanHubJsonUITests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BA0254F215B5BCC00AEE479 /* RegionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionTableViewController.swift; sourceTree = "<group>"; };
+		4BA02553215B64E400AEE479 /* NetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSession.swift; sourceTree = "<group>"; };
+		4BAD72CC215DE1E8001CC39A /* Weather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Weather.xcdatamodel; sourceTree = "<group>"; };
+		4BAD72CE215DE444001CC39A /* WeatherItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4BAD72CF215DE444001CC39A /* WeatherItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4BAD72D2215DE4E1001CC39A /* CoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
+		4BC0F972215B73A200EB5712 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4BC0F974215B747000EB5712 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		4BC0F975215B747000EB5712 /* TitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleTableViewCell.xib; sourceTree = "<group>"; };
+		4BC0F97A215B792000EB5712 /* ActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		4BC0F97C215B7FE200EB5712 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		4BF3201F1D62C67F00F459C6 /* KisanHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KisanHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF320221D62C67F00F459C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BF320241D62C67F00F459C6 /* RegionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionViewController.swift; sourceTree = "<group>"; };
+		4BF320271D62C68000F459C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BF320291D62C68000F459C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BF3202C1D62C68000F459C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BF3202E1D62C68000F459C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF320331D62C68000F459C6 /* KisanHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KisanHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF320371D62C68000F459C6 /* KisanHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisanHubTests.swift; sourceTree = "<group>"; };
+		4BF320391D62C68000F459C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF3203E1D62C68000F459C6 /* KisanHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KisanHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF320421D62C68000F459C6 /* KisanHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisanHubUITests.swift; sourceTree = "<group>"; };
+		4BF320441D62C68000F459C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF320501D62E19D00F459C6 /* File.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
+		4BF320521D62EDB500F459C6 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		4BF95552215E03F600A4B4C7 /* RegionWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionWeatherViewController.swift; sourceTree = "<group>"; };
+		4BF95554215E041200A4B4C7 /* RegionWeatherTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionWeatherTableViewController.swift; sourceTree = "<group>"; };
+		4BF95556215E132800A4B4C7 /* FilterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewController.swift; sourceTree = "<group>"; };
+		4BF95592215E1D9400A4B4C7 /* KisanHubJson.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KisanHubJson.xcodeproj; path = KisanHubJson/KisanHubJson.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BF3201C1D62C67F00F459C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF320301D62C68000F459C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF3203B1D62C68000F459C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BF320161D62C67F00F459C6 = {
+			isa = PBXGroup;
+			children = (
+				4BF95592215E1D9400A4B4C7 /* KisanHubJson.xcodeproj */,
+				4BF320211D62C67F00F459C6 /* KisanHub */,
+				4BF320361D62C68000F459C6 /* KisanHubTests */,
+				4BF320411D62C68000F459C6 /* KisanHubUITests */,
+				4BF320201D62C67F00F459C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BF320201D62C67F00F459C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BF3201F1D62C67F00F459C6 /* KisanHub.app */,
+				4BF320331D62C68000F459C6 /* KisanHubTests.xctest */,
+				4BF3203E1D62C68000F459C6 /* KisanHubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BF320211D62C67F00F459C6 /* KisanHub */ = {
+			isa = PBXGroup;
+			children = (
+				4BAD72CE215DE444001CC39A /* WeatherItem+CoreDataClass.swift */,
+				4BAD72CF215DE444001CC39A /* WeatherItem+CoreDataProperties.swift */,
+				4BAD72CB215DE1E8001CC39A /* Weather.xcdatamodeld */,
+				4BF320221D62C67F00F459C6 /* AppDelegate.swift */,
+				4BF320241D62C67F00F459C6 /* RegionViewController.swift */,
+				4BA0254F215B5BCC00AEE479 /* RegionTableViewController.swift */,
+				4BF320501D62E19D00F459C6 /* File.txt */,
+				4BF320521D62EDB500F459C6 /* Extension.swift */,
+				4BA02553215B64E400AEE479 /* NetworkSession.swift */,
+				4BF320261D62C68000F459C6 /* Main.storyboard */,
+				4BF320291D62C68000F459C6 /* Assets.xcassets */,
+				4BF3202B1D62C68000F459C6 /* LaunchScreen.storyboard */,
+				4BF3202E1D62C68000F459C6 /* Info.plist */,
+				4BC0F972215B73A200EB5712 /* Constants.swift */,
+				4BC0F974215B747000EB5712 /* TitleTableViewCell.swift */,
+				4BC0F975215B747000EB5712 /* TitleTableViewCell.xib */,
+				4BC0F97A215B792000EB5712 /* ActivityIndicatorViewController.swift */,
+				4BC0F97C215B7FE200EB5712 /* Enum.swift */,
+				4BAD72D2215DE4E1001CC39A /* CoreDataModel.swift */,
+				4BF95552215E03F600A4B4C7 /* RegionWeatherViewController.swift */,
+				4BF95554215E041200A4B4C7 /* RegionWeatherTableViewController.swift */,
+				4BF95556215E132800A4B4C7 /* FilterTableViewController.swift */,
+			);
+			path = KisanHub;
+			sourceTree = "<group>";
+		};
+		4BF320361D62C68000F459C6 /* KisanHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BF320371D62C68000F459C6 /* KisanHubTests.swift */,
+				4BF320391D62C68000F459C6 /* Info.plist */,
+			);
+			path = KisanHubTests;
+			sourceTree = "<group>";
+		};
+		4BF320411D62C68000F459C6 /* KisanHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BF320421D62C68000F459C6 /* KisanHubUITests.swift */,
+				4BF320441D62C68000F459C6 /* Info.plist */,
+			);
+			path = KisanHubUITests;
+			sourceTree = "<group>";
+		};
+		4BF95593215E1D9400A4B4C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BF95599215E1D9400A4B4C7 /* KisanHubJson.app */,
+				4BF9559B215E1D9400A4B4C7 /* KisanHubJsonTests.xctest */,
+				4BF9559D215E1D9400A4B4C7 /* KisanHubJsonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BF3201E1D62C67F00F459C6 /* KisanHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF320471D62C68000F459C6 /* Build configuration list for PBXNativeTarget "KisanHub" */;
+			buildPhases = (
+				4BF3201B1D62C67F00F459C6 /* Sources */,
+				4BF3201C1D62C67F00F459C6 /* Frameworks */,
+				4BF3201D1D62C67F00F459C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KisanHub;
+			productName = KisanHub;
+			productReference = 4BF3201F1D62C67F00F459C6 /* KisanHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BF320321D62C68000F459C6 /* KisanHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF3204A1D62C68000F459C6 /* Build configuration list for PBXNativeTarget "KisanHubTests" */;
+			buildPhases = (
+				4BF3202F1D62C68000F459C6 /* Sources */,
+				4BF320301D62C68000F459C6 /* Frameworks */,
+				4BF320311D62C68000F459C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF320351D62C68000F459C6 /* PBXTargetDependency */,
+			);
+			name = KisanHubTests;
+			productName = KisanHubTests;
+			productReference = 4BF320331D62C68000F459C6 /* KisanHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BF3203D1D62C68000F459C6 /* KisanHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF3204D1D62C68000F459C6 /* Build configuration list for PBXNativeTarget "KisanHubUITests" */;
+			buildPhases = (
+				4BF3203A1D62C68000F459C6 /* Sources */,
+				4BF3203B1D62C68000F459C6 /* Frameworks */,
+				4BF3203C1D62C68000F459C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF320401D62C68000F459C6 /* PBXTargetDependency */,
+			);
+			name = KisanHubUITests;
+			productName = KisanHubUITests;
+			productReference = 4BF3203E1D62C68000F459C6 /* KisanHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BF320171D62C67F00F459C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Nikhil Modi";
+				TargetAttributes = {
+					4BF3201E1D62C67F00F459C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0940;
+						ProvisioningStyle = Manual;
+					};
+					4BF320321D62C68000F459C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0940;
+						TestTargetID = 4BF3201E1D62C67F00F459C6;
+					};
+					4BF3203D1D62C68000F459C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0940;
+						TestTargetID = 4BF3201E1D62C67F00F459C6;
+					};
+				};
+			};
+			buildConfigurationList = 4BF3201A1D62C67F00F459C6 /* Build configuration list for PBXProject "KisanHub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BF320161D62C67F00F459C6;
+			productRefGroup = 4BF320201D62C67F00F459C6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4BF95593215E1D9400A4B4C7 /* Products */;
+					ProjectRef = 4BF95592215E1D9400A4B4C7 /* KisanHubJson.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4BF3201E1D62C67F00F459C6 /* KisanHub */,
+				4BF320321D62C68000F459C6 /* KisanHubTests */,
+				4BF3203D1D62C68000F459C6 /* KisanHubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4BF95599215E1D9400A4B4C7 /* KisanHubJson.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = KisanHubJson.app;
+			remoteRef = 4BF95598215E1D9400A4B4C7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4BF9559B215E1D9400A4B4C7 /* KisanHubJsonTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KisanHubJsonTests.xctest;
+			remoteRef = 4BF9559A215E1D9400A4B4C7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4BF9559D215E1D9400A4B4C7 /* KisanHubJsonUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KisanHubJsonUITests.xctest;
+			remoteRef = 4BF9559C215E1D9400A4B4C7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BF3201D1D62C67F00F459C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC0F977215B747000EB5712 /* TitleTableViewCell.xib in Resources */,
+				4BF320511D62E19D00F459C6 /* File.txt in Resources */,
+				4BF3202D1D62C68000F459C6 /* LaunchScreen.storyboard in Resources */,
+				4BF3202A1D62C68000F459C6 /* Assets.xcassets in Resources */,
+				4BF320281D62C68000F459C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF320311D62C68000F459C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF3203C1D62C68000F459C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BF3201B1D62C67F00F459C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BAD72D0215DE444001CC39A /* WeatherItem+CoreDataClass.swift in Sources */,
+				4BC0F976215B747000EB5712 /* TitleTableViewCell.swift in Sources */,
+				4BC0F97B215B792000EB5712 /* ActivityIndicatorViewController.swift in Sources */,
+				4BF320251D62C67F00F459C6 /* RegionViewController.swift in Sources */,
+				4BA02554215B64E400AEE479 /* NetworkSession.swift in Sources */,
+				4BAD72D3215DE4E1001CC39A /* CoreDataModel.swift in Sources */,
+				4BA02550215B5BCC00AEE479 /* RegionTableViewController.swift in Sources */,
+				4BF95557215E132800A4B4C7 /* FilterTableViewController.swift in Sources */,
+				4BC0F97D215B7FE200EB5712 /* Enum.swift in Sources */,
+				4BF320531D62EDB500F459C6 /* Extension.swift in Sources */,
+				4BAD72CD215DE1E8001CC39A /* Weather.xcdatamodeld in Sources */,
+				4BAD72D1215DE444001CC39A /* WeatherItem+CoreDataProperties.swift in Sources */,
+				4BF320231D62C67F00F459C6 /* AppDelegate.swift in Sources */,
+				4BC0F973215B73A200EB5712 /* Constants.swift in Sources */,
+				4BF95555215E041200A4B4C7 /* RegionWeatherTableViewController.swift in Sources */,
+				4BF95553215E03F600A4B4C7 /* RegionWeatherViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF3202F1D62C68000F459C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF320381D62C68000F459C6 /* KisanHubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF3203A1D62C68000F459C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF320431D62C68000F459C6 /* KisanHubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BF320351D62C68000F459C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BF3201E1D62C67F00F459C6 /* KisanHub */;
+			targetProxy = 4BF320341D62C68000F459C6 /* PBXContainerItemProxy */;
+		};
+		4BF320401D62C68000F459C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BF3201E1D62C67F00F459C6 /* KisanHub */;
+			targetProxy = 4BF3203F1D62C68000F459C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BF320261D62C68000F459C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF320271D62C68000F459C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BF3202B1D62C68000F459C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF3202C1D62C68000F459C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BF320451D62C68000F459C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BF320461D62C68000F459C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BF320481D62C68000F459C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KisanHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.KisanHub;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		4BF320491D62C68000F459C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KisanHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.KisanHub;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		4BF3204B1D62C68000F459C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KisanHubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.KisanHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KisanHub.app/KisanHub";
+			};
+			name = Debug;
+		};
+		4BF3204C1D62C68000F459C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KisanHubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.KisanHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KisanHub.app/KisanHub";
+			};
+			name = Release;
+		};
+		4BF3204E1D62C68000F459C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KisanHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.KisanHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = KisanHub;
+			};
+			name = Debug;
+		};
+		4BF3204F1D62C68000F459C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KisanHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.KisanHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = KisanHub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BF3201A1D62C67F00F459C6 /* Build configuration list for PBXProject "KisanHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF320451D62C68000F459C6 /* Debug */,
+				4BF320461D62C68000F459C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF320471D62C68000F459C6 /* Build configuration list for PBXNativeTarget "KisanHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF320481D62C68000F459C6 /* Debug */,
+				4BF320491D62C68000F459C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF3204A1D62C68000F459C6 /* Build configuration list for PBXNativeTarget "KisanHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF3204B1D62C68000F459C6 /* Debug */,
+				4BF3204C1D62C68000F459C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF3204D1D62C68000F459C6 /* Build configuration list for PBXNativeTarget "KisanHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF3204E1D62C68000F459C6 /* Debug */,
+				4BF3204F1D62C68000F459C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BAD72CB215DE1E8001CC39A /* Weather.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BAD72CC215DE1E8001CC39A /* Weather.xcdatamodel */,
+			);
+			currentVersion = 4BAD72CC215DE1E8001CC39A /* Weather.xcdatamodel */;
+			path = Weather.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BF320171D62C67F00F459C6 /* Project object */;
+}
