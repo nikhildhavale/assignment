@@ -1,5 +1,5 @@
 # assignment
-user Xcode 10
+used Xcode 10
 1. Data Parsing and UI/UX:
 URL: https://www.metoffice.gov.uk/climate/uk/summaries/datasets#yearOrdered [Year ordered statistics section]
 1) Data parsing - Please use Java/Kotlin[Android] or Swift[iOS].
